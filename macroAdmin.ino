@@ -354,7 +354,6 @@ void keyboardAction(int action) {
         Serial.println("Start Replay");
       }
       delay(maxDelay);
-
       break;
 
 
@@ -372,7 +371,6 @@ void keyboardAction(int action) {
         Serial.println("Stop Replay");
       }
       delay(maxDelay);
-
       break;
 
     case 9:
@@ -389,8 +387,6 @@ void keyboardAction(int action) {
         Serial.println("Save Replay");
       }
       delay(maxDelay);
-
-
       break;
   }
 }
